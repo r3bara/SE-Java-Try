@@ -3,7 +3,7 @@ class BmiV {
         final int a = Integer.parseInt(args[2]); // Groeße int
         final int b = Integer.parseInt(args[1]); // Gewicht int
         final int c = a / 100; // Groeße in Meter ohne cm
-        final int d = a % 100; // Restgröße in cm
+        final int d = a - 100; // Groeße - 1m
         final double e = Double.parseDouble(args[2]); // Groeße double
         final double f = e / 100.00; // Groeße in Meter
         final double g = Double.parseDouble(args[1]); // Gewicht double
